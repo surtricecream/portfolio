@@ -1,6 +1,7 @@
 .App {
   min-height: 100vh;
-  background: #fff;
+  background: #010101da;
+  padding: 40px 100px;
 }
 
 .footer {
