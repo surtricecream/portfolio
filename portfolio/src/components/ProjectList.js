@@ -3,17 +3,17 @@ import projects from "../data/projects";
 
 function ProjectList() {
   return (
-    <ul>
+    <div>
       {projects.map((project, index) => (
-        <li key={index}>
+        <p key={index}>
           <a href={project.url} target="_blank" rel="noopener noreferrer">
             {project.name}
           </a>
           {" — "}
           {project.description}
-        </li>
+        </p>
       ))}
-    </ul>
+    </div>
   );
 }
 
