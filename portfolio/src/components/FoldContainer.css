@@ -1,0 +1,68 @@
+/* Invisible spacer — its height creates the scrollbar */
+.scroll-spacer {
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Fixed full-screen wrapper — centers the 3D scene */
+.fold-all {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* 3D context wrapper — perspective + preserve-3d so children rotate in 3D */
+.fold-wrapper3d {
+  position: relative;
+  perspective: 20vw;
+  transform-style: preserve-3d;
+}
+
+/* Each fold face — clips content to its area */
+.fold {
+  overflow: hidden;
+  width: 80vw;
+  height: 80vh;
+}
+
+/* ---- TOP FACE ----
+   Sits ABOVE center in normal flow.
+   Rotated -90° around its bottom edge → folds toward viewer.
+   Its .fold-align pushes content DOWN by 100% so it shows
+   the portion of content BEFORE what the center shows. */
+.fold--top {
+  transform-origin: bottom center;
+  transform: rotateX(-90deg);
+}
+
+.fold--top .fold-align {
+  transform: translateY(100%);
+}
+
+/* ---- CENTER FACE ----
+   No rotation — directly facing you. */
+
+/* ---- BOTTOM FACE ----
+   Sits BELOW center in normal flow.
+   Rotated +90° around its top edge → folds away from viewer.
+   Its .fold-align pushes content UP by 100% so it shows
+   the portion of content AFTER what the center shows. */
+.fold--bottom {
+  transform-origin: top center;
+  transform: rotateX(90deg);
+}
+
+.fold--bottom .fold-align {
+  transform: translateY(-100%);
+}
+
+/* Content alignment container inside each face */
+.fold-align {
+  width: 100%;
+  height: 100%;
+}

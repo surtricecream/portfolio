@@ -1,6 +1,5 @@
 .App {
-  min-height: 100vh;
-  background: #010101da;
+  background: #010101;
   padding: 40px 100px;
 }
 
@@ -11,4 +10,8 @@
 .social-links {
   display: flex;
   gap: 20px;
+}
+
+.intro-list p {
+  margin: 2px 0;
 }
