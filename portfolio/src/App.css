@@ -1,6 +1,8 @@
 .App {
   background: #010101;
   padding: 40px 100px;
+  /*spacing so name appears on bottom face*/
+  padding-top: 72vh;
 }
 
 .footer {
