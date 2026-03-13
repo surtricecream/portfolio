@@ -7,7 +7,7 @@ function ProjectList() {
       {projects.map((project, index) => (
         <p key={index}>
           <a href={project.url} target="_blank" rel="noopener noreferrer">
-            <strong style={{ textDecoration: "underline" }}>{project.name}</strong>
+            <a style={{ textDecoration: "underline" }}>{project.name}</a>
           </a>
           {" — "}
           {project.description}
