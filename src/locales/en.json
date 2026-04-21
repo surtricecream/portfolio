@@ -3,10 +3,20 @@
     "role": "2nd year Computer Science and Engineering Student at Instituto Superior Técnico",
     "location": "Lisbon, Portugal"
   },
+
+  "experience": {
+
+  },
+
+  "projects": {
+
+  },
+
   "education": {
     "degree": "Bachelor in Computer Science and Engineering — Instituto Superior Técnico",
     "graduation": "Expected graduation: June 2027"
   },
+
   "footer": {
     "chat": "Happy to chat, reach out!"
   }
