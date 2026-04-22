@@ -1,9 +1,12 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
-      <p>Happy to chat, reach out!</p>
+      <p>{t('footer.chat')}</p>
       <div className="social-links">
         <a href="https://github.com/surtricecream" target="_blank" rel="noopener noreferrer">
           <FaGithub />

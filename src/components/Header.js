@@ -1,10 +1,14 @@
+import { useTranslation } from 'react-i18next';
+
 function Header() {
+  const { t } = useTranslation();
+
   return (
     <header className="header">
       <h1>FRANCISCO SIMÕES</h1>
       <div className="intro-list">
-        <p>2nd year Computer Science and Engineering Student at Instituto Superior Técnico</p>
-        <p>Lisbon, Portugal</p>
+        <p>{t('header.role')}</p>
+        <p>{t('header.location')}</p>
         <p>franciscojrs210@gmail.com</p>
       </div>
     </header>

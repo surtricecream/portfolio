@@ -1,8 +1,12 @@
+import { useTranslation } from 'react-i18next';
+
 function Education() {
+    const { t } = useTranslation();
+
     return (
         <section className="Education">
-            <h3>Bachelor in Computer Science and Engineering — Instituto Superior Técnico</h3>
-            <p>Expected graduation: June 2027</p>
+            <h3>{t('education.degree')}</h3>
+            <p>{t('education.graduation')}</p>
         </section>
     )
 }
