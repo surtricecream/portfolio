@@ -2,12 +2,12 @@
 const projects = [
   {
     name: "IST LEIC Projects",
-    description: "College projects from my Computer Science degree at IST",
+    descriptionKey: "projects.ist.description",
     url: "https://github.com/surtricecream/IST-LEIC-projects",
   },
   // {
   //   name: "Project Name",
-  //   description: "Short description of what it does",
+  //   descriptionKey: "projects.(name).description",
   //   url: "https://...",
   // },
 ];

@@ -9,7 +9,9 @@
   },
 
   "projects": {
-
+    "ist": {
+      "description": "College projects from my Computer Science degree at IST"
+    }
   },
 
   "education": {
