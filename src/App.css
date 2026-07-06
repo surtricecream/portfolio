@@ -1,8 +1,36 @@
 .App {
   background: #010101;
   padding: 40px 0px;
-  /*spacing so name appears on bottom face*/
   padding-top: 73vh;
+}
+
+.language-switch {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  gap: 12px;
+}
+
+.language-switch button {
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  padding: 0;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.language-switch button.active {
+  color: #ffffff;
+}
+
+.language-switch button:hover {
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .section {

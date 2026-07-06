@@ -4,14 +4,20 @@
     "location": "Lisbon, Portugal"
   },
 
-  "experience": {
-    
+  "sections": {
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education"
   },
 
   "projects": {
     "ist": {
       "description": "College projects from my Computer Science degree at IST"
     }
+  },
+
+  "experience": {
+    
   },
 
   "education": {

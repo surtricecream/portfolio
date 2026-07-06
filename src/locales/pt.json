@@ -4,14 +4,20 @@
     "location": "Lisboa, Portugal"
   },
 
-  "experience": {
-
+  "sections": {
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "education": "Formação"
   },
 
   "projects": {
     "ist": {
-      "description": ""
+      "description": "Projetos académicos da minha licenciatura em Engenharia Informática no IST"
     }
+  },
+
+  "experience": {
+
   },
 
   "education": {
@@ -21,6 +27,6 @@
 
 
   "footer": {
-    "chat": "Disponível para conversar, entre em contacto!"
+    "chat": "Disponível para conversar, entra em contacto!"
   }
 }
