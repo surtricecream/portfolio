@@ -12,12 +12,14 @@
 
   "projects": {
     "ist": {
-      "description": "Projetos académicos da minha licenciatura em Engenharia Informática no IST"
+      "description": "Projetos académicos da minha Licenciatura em Engenharia Informática no IST"
     }
   },
 
   "experience": {
-
+    "neiist": {
+     "description": "" 
+    }
   },
 
   "education": {

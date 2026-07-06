@@ -6,7 +6,7 @@ const projects = [
     url: "https://github.com/surtricecream/IST-LEIC-projects",
   },
   // {
-  //   name: "Project Name",
+  //   name: "(name)",
   //   descriptionKey: "projects.(name).description",
   //   url: "https://...",
   // },
