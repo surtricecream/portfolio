@@ -6,6 +6,7 @@ import ProjectList from './components/ProjectList';
 import Education from './components/Education';
 import Footer from './components/Footer';
 import FoldContainer from './components/FoldContainer';
+import ExperienceList from './components/ExperienceList';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
           <Header />
           <Section title={t('sections.projects')}>
             <ProjectList />
+          </Section>
+          <Section title={t('sections.experience')}>
+            <ExperienceList />
           </Section>
           <Section title={t('sections.education')}>
             <Education />

@@ -1,8 +1,8 @@
 //data file for experience objects
-const experience = [
+const experiences = [
     {
       name: "NEIIST",
-      descriptionKey: "experience.neiist.description",
+      descriptionKey: "experiences.neiist.description",
       url: "https://neiist.tecnico.ulisboa.pt/"
     },
   // {
@@ -12,4 +12,4 @@ const experience = [
   // },
 ]
 
-export default experience
+export default experiences
