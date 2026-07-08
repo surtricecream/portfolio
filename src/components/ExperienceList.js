@@ -9,7 +9,7 @@ function ExperienceList() {
       {experiences.map((experience, index) => (
         <p key={index}>
           <a href={experience.url} target="_blank" rel="noopener noreferrer">
-            {experience.name} <span style={{ fontSize: '0.8em' }}>🔗</span>
+            <b>{experience.name}</b> <span style={{ fontSize: '0.8em' }}>🔗</span>
           </a>
           {" — "}
           {t(experience.descriptionKey)}
