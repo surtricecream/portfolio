@@ -1,6 +1,6 @@
 {
   "header": {
-    "role": "Estudante do 2º ano de Engenharia Informática e de Computadores no Instituto Superior Técnico",
+    "role": "Estudante do 3º ano de Engenharia Informática e de Computadores no Instituto Superior Técnico",
     "location": "Lisboa, Portugal"
   },
 
@@ -11,6 +11,9 @@
   },
 
   "projects": {
+    "ams": {
+      "description" : "Plataforma full-stack de gestão académica com avaliação baseada em permissões e um processo de revisão de exames em várias etapas"
+    },
     "ist": {
       "description": "Projetos académicos da minha Licenciatura em Engenharia Informática no IST"
     }

@@ -1,6 +1,6 @@
 {
   "header": {
-    "role": "2nd year Computer Science and Engineering Student at Instituto Superior Técnico",
+    "role": "3rd year Computer Science and Engineering Student at Instituto Superior Técnico",
     "location": "Lisbon, Portugal"
   },
 
@@ -11,6 +11,9 @@
   },
 
   "projects": {
+    "ams": {
+      "description" : "Full-stack academic management platform with role-based grading and a multi-stage exam review workflow"
+    },
     "ist": {
       "description": "College projects from my Computer Science degree at IST"
     }
