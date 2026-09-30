@@ -4,15 +4,6 @@ Personal portfolio that showcases my academic and personal projects, experience,
 
 **Live site:** [franciscosimoes.vercel.app](https://franciscosimoes.vercel.app)
 
-## Highlights
-
-- Project showcase with links to the source repositories
-- Experience section featuring my work with [NEIIST](https://neiist.tecnico.ulisboa.pt/)
-- Education and expected graduation information
-- English and Portuguese language switching with automatic browser-language detection
-- Minimal presentation with a scroll-driven fold effect
-- Visitor analytics through Vercel Analytics
-
 ## Tech stack
 
 - [React](https://react.dev/) 19
