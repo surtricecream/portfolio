@@ -48,11 +48,3 @@ src/
 ├── lib/          # i18n configuration
 └── locales/      # English and Portuguese translations
 ```
-
-## Contact
-
-I’m happy to connect about internships, software engineering opportunities, and interesting projects.
-
-- **Email:** [franciscojrs210@gmail.com](mailto:franciscojrs210@gmail.com)
-- **GitHub:** [github.com/surtricecream](https://github.com/surtricecream)
-- **LinkedIn:** [linkedin.com/in/francisco-simões-570913380](https://www.linkedin.com/in/francisco-sim%C3%B5es-570913380/)
