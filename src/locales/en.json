@@ -14,6 +14,9 @@
     "ams": {
       "description" : "Full-stack academic management platform with role-based grading and a multi-stage exam review workflow"
     },
+    "internet-health": {
+      "description": "Live dashboard of Portugal's internet traffic on Cloudflare Workers, with cached Radar data and selectable time ranges"
+    },
     "ist": {
       "description": "College projects from my Computer Science degree at IST"
     }

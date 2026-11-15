@@ -14,6 +14,9 @@
     "ams": {
       "description" : "Plataforma full-stack de gestão académica com avaliação baseada em permissões e um processo de revisão de exames em várias etapas"
     },
+    "internet-health": {
+      "description": "Live dashboard do tráfego de internet em Portugal usando o Cloudflare Workers, com dados do Radar em cache e vários intervalos de tempo"
+    },
     "ist": {
       "description": "Projetos académicos da minha Licenciatura em Engenharia Informática no IST"
     }
