@@ -3,12 +3,14 @@ const projects = [
   {
     name: "Academic Management System",
     descriptionKey: "projects.ams.description",
-    url: "https://github.com/surtricecream/Academic-Management-System"
+    url: "https://github.com/surtricecream/Academic-Management-System",
+    live: "https://acams-ist.vercel.app/"
   },
   {
     name: "Portugal Internet Health",
     descriptionKey: "projects.internet-health.description",
-    url: "https://github.com/surtricecream/Portugal-Internet-Health"
+    url: "https://github.com/surtricecream/Portugal-Internet-Health",
+    live: "https://radar-pt.franciscojrs.workers.dev/"
   },
   {
     name: "IST LEIC Projects",

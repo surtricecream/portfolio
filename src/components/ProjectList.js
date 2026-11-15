@@ -1,5 +1,6 @@
 //imports data from projects.js and turns it into HTML
 import { useTranslation } from "react-i18next"
+import { FaGithub } from "react-icons/fa";
 import projects from "../data/projects";
 
 function ProjectList() {
@@ -9,9 +10,31 @@ function ProjectList() {
     <div>
       {projects.map((project, index) => (
         <p key={index}>
-          <a href={project.url} target="_blank" rel="noopener noreferrer">
-            <b>{project.name}</b> <span style={{ fontSize: '0.8em' }}>🔗</span>
-          </a>
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${project.name} on GitHub`}
+              title="GitHub"
+            >
+              <FaGithub />
+            </a>
+          )}
+          {project.url && project.live && " "}
+          {project.live && (
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Live demo of ${project.name}`}
+              title="Live demo"
+            >
+              <span style={{ fontSize: "0.8em" }}>🔗</span>
+            </a>
+          )}
+          {" "}
+          <b>{project.name}</b>
           {" — "}
           {t(project.descriptionKey)}
         </p>
